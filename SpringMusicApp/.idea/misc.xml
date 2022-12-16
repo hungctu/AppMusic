@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/drawable/backgroundplaymusic.xml" value="0.1765" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/drawable/bg.xml" value="0.2105" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/drawable/emotion_custom.xml" value="0.22" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/drawable/miniviewcustorm.xml" value="0.324" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/drawable/searchbardesign.xml" value="0.324" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_all_category.xml" value="0.3416666666666667" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_camera.xml" value="0.35260416666666666" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_danh_sach.xml" value="0.2521246458923513" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_emotion_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_login.xml" value="0.2921875" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/activity_play_music.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/ad.xml" value="0.175" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/casi.xml" value="0.5" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/categoryadapter.xml" value="0.3416666666666667" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/danhsachbaihat.xml" value="0.3416666666666667" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/danhsachbaihatplaylist.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/deletemusic.xml" value="0.34791666666666665" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/dsbhusertheocxadapter.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/dsplaymusicfragment.xml" value="0.34102564102564104" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/emotion_dialog.xml" value="0.365625" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/emotionmusicadapter.xml" value="0.35" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/fragment_mini_view.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/homefragment.xml" value="0.10135135135135136" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/login_dialog.xml" value="0.2876923076923077" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/musicimages_playmusic_fragment.xml" value="0.34102564102564104" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/personalizedfragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/playlist.xml" value="0.3145833333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/playlist_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/playlistthembaihat.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/playmusicadapter.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/randomcategoryfragment.xml" value="0.175" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/randommusic.xml" value="0.29444444444444445" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/randommusicfragment.xml" value="0.18802083333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/recentlysong_fragment.xml" value="0.365625" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/searchfragment.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/singin_dialog.xml" value="0.2876923076923077" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/theloai.xml" value="0.175" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/thembaihatvaoplaylistdialog.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/topmusic.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/topmusicfragment.xml" value="0.1" />
+        <entry key="..\:/Android/AndroidStudioProjects/SpringMusicApp/app/src/main/res/layout/user_music_adapter.xml" value="0.31979166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

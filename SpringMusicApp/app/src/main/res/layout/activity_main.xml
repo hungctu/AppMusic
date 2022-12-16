@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDEDED"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/Viewpaper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></androidx.viewpager.widget.ViewPager>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <fragment
+            class="com.example.springmusicapp.Fragment.MiniViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/Tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        app:tabIndicator="@color/red"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#F44336"
+        app:tabTextColor="#000000">
+    </com.google.android.material.tabs.TabLayout>
+
+</LinearLayout>

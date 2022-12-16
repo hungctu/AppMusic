@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MiniViewFragment">
+    <RelativeLayout
+        android:background="@drawable/miniviewcustorm"
+        android:id="@+id/MiniView"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageminiview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/buianhtuan" />
+
+        <TextView
+            android:id="@+id/tenminiview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/imageminiview"
+            android:lines="1"
+            android:maxWidth="200dp"
+            android:text="ten bai hat"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/nextminiview"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/next"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+
+        <ImageButton
+            android:id="@+id/playminiview"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/nextminiview"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/pause"/>
+
+        <ImageButton
+            android:id="@+id/preminiview"
+            android:src="@drawable/back"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/playminiview"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>
+    </RelativeLayout>
+</FrameLayout>

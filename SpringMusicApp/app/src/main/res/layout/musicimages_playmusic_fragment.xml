@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvpl"
+        app:cardCornerRadius="20dp"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/backgroundplaymusic"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            android:src="@drawable/buianhtuan"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tenbaihat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cvpl"
+        android:text="Tên bài hát"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

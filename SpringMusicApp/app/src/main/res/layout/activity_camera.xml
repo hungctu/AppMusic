@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191919"
+    tools:context=".Activity.CameraActivity">
+
+    <RelativeLayout
+        android:id="@+id/khoangtrong"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/cameraview"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@id/khoangtrong"/>
+
+    <RelativeLayout
+        android:id="@+id/reemotion"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/cameraview"
+        android:layout_alignParentBottom="true">
+
+        <ImageButton
+            android:id="@+id/laycamxuc"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/diaphragm" />
+
+        <ImageButton
+            android:id="@+id/switch_camera"
+            android:scaleType="fitXY"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/laycamxuc"
+            android:background="@null"
+            android:src="@drawable/switch_camera" />
+    </RelativeLayout>
+</RelativeLayout>

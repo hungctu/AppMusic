@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txttopmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TOP 10 BÀI HÁT ĐƯỢC NGHE NHIỀU NHẤT"
+        android:textColor="#020202"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scrollviewtopmusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttopmusic"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

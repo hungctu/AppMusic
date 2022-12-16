@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.DanhSachActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/categoryLayout"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/background" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/dstoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignLeft="@+id/background"
+                android:layout_alignTop="@+id/background"
+                android:layout_alignRight="@+id/background"
+                android:layout_marginTop="2dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/hinhnends"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/background"
+                android:layout_alignTop="@+id/background"
+                android:layout_alignRight="@+id/background"
+                android:layout_alignBottom="@+id/background"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="65dp" />
+
+            <TextView
+                android:id="@+id/tends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/background"
+                android:layout_alignRight="@+id/background"
+                android:layout_alignBottom="@+id/background"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="30dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Hello"
+                android:textColor="#E4E4E4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:id="@+id/playplaylist"
+        android:layout_below="@id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/actionbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/playbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/actionbutton"
+            android:text="Phát tất cả bài hát trong danh sách"
+            android:textColor="#F44336"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/ds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playplaylist"
+        android:layout_marginTop="5dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dsbaihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.core.widget.NestedScrollView>
+
+    <FrameLayout
+        android:id="@+id/framelayoutds"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <fragment
+            class="com.example.springmusicapp.Fragment.MiniViewFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

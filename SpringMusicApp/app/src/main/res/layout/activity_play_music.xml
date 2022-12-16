@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/backgroundplaymusic"
+    tools:context=".Activity.PlayMusicActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarplaymusic"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/menumusicplaymusic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:src="@drawable/dots" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/Viewpaperplaymusic"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txttimemusic"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="00:00"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <SeekBar
+                android:id="@+id/seekbarplaymusic"
+                android:layout_weight="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/txttotaltimemusic"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="00:00"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnshuffle"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/unshuffle"
+                android:layout_marginRight="15dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <ImageButton
+                android:id="@+id/btnpre"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/back"
+                android:layout_marginRight="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <ImageButton
+                android:id="@+id/btnplay"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/play"
+                android:layout_marginRight="15dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+
+            <ImageButton
+                android:id="@+id/btnnext"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/next"
+                android:layout_marginRight="15dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+
+            <ImageButton
+                android:id="@+id/btnrepeat"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/unrefresh"
+                android:layout_marginRight="15dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

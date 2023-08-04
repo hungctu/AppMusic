@@ -27,5 +27,6 @@ To install and run the app, you can follow these steps:
 5. Run the `main` method in the `MusicServerApplication.java` class.
 6. The website will be hosted on your local machine at `http://localhost:8080`.
 7. Open SpringMusicApp in AndroidStudio
-8. Open file AppMusic/SpringMusicApp/app/src/main/java/com/example/springmusicapp/Service/APIService.java and edit: private static String url="your localhost/server/";
+8. Open file AppMusic/SpringMusicApp/app/src/main/java/com/example/springmusicapp/Service/APIService.java and edit:
+   * private static String url="your localhost/server/";
 

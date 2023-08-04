@@ -1,6 +1,6 @@
 # MusicApp
 MusicApp is a music player project developed by me for my graduation thesis. It provides users with basic functions such as searching for songs, listening to songs, creating playlists, adding songs to lists, and the most typical function of the project is searching for suitable songs based on the listener's feelings.
-### Score: 9/10
+#### Score: 9/10
 
 
 ## Features

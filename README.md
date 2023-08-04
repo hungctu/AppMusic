@@ -29,4 +29,5 @@ To install and run the app, you can follow these steps:
 7. Open SpringMusicApp in AndroidStudio
 8. Open file AppMusic/SpringMusicApp/app/src/main/java/com/example/springmusicapp/Service/APIService.java and edit:
    * private static String url="your localhost/server/";
+9. Run App
 
